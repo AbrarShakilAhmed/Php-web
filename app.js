@@ -1,9 +1,7 @@
-app()
-
-function app(x = 0, y = 0) {
-  return x + y
+function app() {
+  return '546f'
 }
 
-let news = app(3, 5)
+let news = app
 
-console.log(news)
+console.log(news())

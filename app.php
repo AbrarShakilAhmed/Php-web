@@ -3,12 +3,12 @@
 $a = 345;
 $b =435345;
 
-function add($x=0,$y=0){
-  return $x +$y;
+function add(){
+  return "dfsf";
 }
-$new = add(4,5);
+$new = "add";
 
-echo $new;
+echo $new();
 
 
 ?>
