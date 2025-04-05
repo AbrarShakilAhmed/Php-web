@@ -6,5 +6,6 @@ for($j =1; $j<=$i;$j++){
 
 }
   echo "<br>";
+  echo "<br>";
 }
 ?>
