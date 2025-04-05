@@ -9,12 +9,20 @@ $refineArr = [];
 
 
 foreach($arr as $single){
-  if($single[1]<100){
-    array_push($refineArr,$single);
+  if($single[1]<30){
+    echo $single[0];
+    echo "<br>";
+
   }
 }
 
-print_r($refineArr);
+
+
+
+    echo "<br>";
+    echo "<br>";
+    echo "<br>";
+
 
 
 
@@ -45,5 +53,7 @@ for($i=1;$i<=100;$i++){
 
   }
 }
+
+
 
 ?>
