@@ -57,11 +57,10 @@ for($i=1;$i<=100;$i++){
 
 
 for ($i = 0, $j = 5; $i < 10; $i++) {
-    while ($j--) {
+
         if ($j == 17) {
             goto end;
         }
-    }
 }
 echo "i = $i";
 end:
