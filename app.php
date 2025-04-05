@@ -1,14 +1,12 @@
 <?php
 
-$a = 345;
-$b =435345;
-
-function add(){
-  return "dfsf";
+function para($text,$color="red"){
+  echo "<p style='color:$color;font-size:42px;'>$text</p>";
 }
-$new = "add";
 
-echo $new();
+$temp = " Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut esse, soluta velit veniam facilis nostrum ";
 
+para("$temp","red");
 
 ?>
+
