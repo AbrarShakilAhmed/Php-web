@@ -7,7 +7,7 @@ function para($text,$color="red"){
 
 $temp = " Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut esse, soluta velit veniam facilis nostrum ";
 
-para("  ","red");
+para($temp,"red");
 
 ?>
 
