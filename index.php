@@ -62,7 +62,7 @@ for ($i = 0, $j = 5; $i < 10; $i++) {
             goto end;
         }
 }
-echo "i = $i";
+echo "i == $i";
 end:
 echo 'end ';
 
@@ -70,6 +70,15 @@ $arrs = [
   "app" => "dsf"
 ];
 echo $arrs["app"];
+
+$arrs["name"] = "abrar";
+
+array_push($arrs,'"new"=> 89');
+
+
+print_r($arrs["dfsdf"]);
+
+
 
 
 
