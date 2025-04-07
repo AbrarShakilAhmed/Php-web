@@ -64,7 +64,7 @@ for ($i = 0, $j = 5; $i < 10; $i++) {
 }
 echo "i = $i";
 end:
-echo 'j hit 17';
+echo 'end ';
 
 
 
