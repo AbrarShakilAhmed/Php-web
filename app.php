@@ -18,7 +18,7 @@ function app(...$args) {
 $news = 'app';
 
 echo $news(23, 34, 234, 2); // This will call the function and print the arguments
-;;
+
 
 ?>
 
