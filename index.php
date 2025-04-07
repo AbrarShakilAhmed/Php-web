@@ -66,6 +66,10 @@ echo "i = $i";
 end:
 echo 'end ';
 
+$arrs = [
+  "app" => "dsf"
+];
+echo $arrs["app"];
 
 
 
