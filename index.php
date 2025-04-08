@@ -79,6 +79,10 @@ array_push($arrs,'"new"=> 89');
 print_r($arrs["dfsdf"]);
 
 
+for($i=1;$i<=10;$i++):
+  echo $i;
+endfor;
+
 
 
 
