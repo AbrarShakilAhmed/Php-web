@@ -1,5 +1,4 @@
 <?php
-
 function One(){
   echo "working 1 function";
 }
@@ -11,6 +10,6 @@ function Two(){
   $test();
 }
 
-echo strlen("sjdhadhasdhahsd");
+echo strlen("sjdhadhasdhahsd                                ");
 
 // Two();
