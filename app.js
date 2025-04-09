@@ -20,7 +20,6 @@ function replaceword2(vars, word, news) {
     }
   })
   return newarr.join(' ')
-  return newarr.join(' ')
 }
 
 console.log(replaceword2(str, 'world', 'nes'))
