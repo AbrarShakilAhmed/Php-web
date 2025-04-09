@@ -83,6 +83,10 @@ for($i=1;$i<=10;$i++):
   echo $i;
 endfor;
 
+foreach($arr as $a){
+  print($a);
+}
+
 
 
 
