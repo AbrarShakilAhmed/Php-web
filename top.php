@@ -2029,14 +2029,15 @@ $arr =[
 ];
 
 
-$keys = array_keys($arr);
-for($i=0;$i<count($arr);$i++){
-  echo $arr[$keys[$i]] . "\n";
-}
+// $keys = array_keys($arr);
+// for($i=0;$i<count($arr);$i++){
+//   echo $arr[$keys[$i]] . "\n";
+// }
 
 
 
-$mm = [[$arr]];
+// $mm = [[$arr]];
 
 
-print_r($mm);
+// print_r($mm);
+
