@@ -2040,4 +2040,6 @@ $arr =[
 
 
 // print_r($mm);
-
+foreach($arr as $key=>$a){
+  echo $key ." : ". $a ."\n";
+}
