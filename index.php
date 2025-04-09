@@ -84,7 +84,7 @@ for($i=1;$i<=10;$i++):
 endfor;
 
 foreach($arr as $a){
-  print_r($a);
+  print_r($a);;
 }
 
 
