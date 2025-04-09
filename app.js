@@ -1,15 +1,25 @@
-let obj = {
-  kids: {
-    name: 'abrar',
-    age: 45,
-    addr: {
-      city: 'chu',
-      print() {
-        console.log(this) // Will log the `addr` object
-      },
-    },
-  },
-  ages: 234, // Correct the semicolon to a comma here
+let str = 'hello world'
+
+function replaceword(vars, word, news) {
+  if (vars.includes(word)) {
+    return vars.replace(word, news)
+  }
+  return 0
 }
 
-obj.kids.addr.print.call(kids) // This will log the `addr` object
+console.log(replaceword(str, 'world', 'nes'))
+
+function replaceword2(vars, word, news) {
+  vars = vars.split(' ')
+  let newarr = []
+  vars.forEach((element) => {
+    if (element == word) {
+      newarr.push(news)
+    } else {
+      newarr.push(element)
+    }
+  })
+  return newarr.join(' ')
+}
+
+console.log(replaceword2(str, 'world', 'nes'))
