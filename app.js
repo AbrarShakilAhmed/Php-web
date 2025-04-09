@@ -23,4 +23,4 @@ function replaceword2(vars, word, news) {
 }
 
 console.log(replaceword2(str, 'world', 'nes'))
-console.log(replaceword2(str, 'world', 'nes'))
+alert('#$5345')
