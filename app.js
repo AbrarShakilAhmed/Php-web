@@ -25,7 +25,6 @@ function replaceword2(vars, word, news) {
 console.log(replaceword2(str, 'world', 'nes'))
 clearImmediate()
 
-Create a Set
 const letters = Object.values({ a: 'a', x: 'b', d: 'c' })
 
 console.table(letters.entries()) // List all Elements
