@@ -86,6 +86,9 @@ endfor;
 foreach($arr as $a){
   print_r($a);;
 }
+foreach($arr as $a){
+  print_r($a);;
+}
 
 
 
