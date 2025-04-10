@@ -13,3 +13,8 @@ function Two(){
 echo strlen("sjdhadhasdhahsd                                ");
 
 // Two();
+
+
+$a =(float) [];
+
+echo $a;
