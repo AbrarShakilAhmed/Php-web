@@ -52,3 +52,5 @@ echo "</tr>";
 
 }
 echo "</table>";
+
+print_r($GLOBALS);
