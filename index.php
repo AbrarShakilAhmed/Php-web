@@ -1,31 +1,28 @@
 <?php
-session_start();
 
-// Initialize count if not already set
-if (!isset($_SESSION['count'])) {
-    $_SESSION['count'] = 0;
+// $host = "localhost";
+// $name = "root";
+// $pass = null;
+// $dbName = "college";
+
+// $conn = new mysqli($host,$name,$pass,$dbName);
+// $students = $conn->query("SELECT * FROM `students` WHERE 1")->fetch_all();
+
+// print_r($students[0]);
+
+$dsn = "mysql:host=localhost;dbname=college";
+$username = "root";
+$password = null;
+
+try {
+    $pdo = new PDO($dsn, $username, $password);
+
+
+
+} catch (PDOException $e) {
+    echo "Error: " . $e->getMessage();
 }
 
-// If form is submitted, increment the count
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $_SESSION['count']++;
-}
 
-// print_r($_SERVER);
+print_r($pdo->query("Select * from students where 1")->fetchAll());
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Counter Button</title>
-</head>
-<body>
-
-<form method="post">
-  <button type="submit"><?php echo $_SESSION['count']; ?></button>
-</form>
-
-</body>
-</html>
