@@ -25,4 +25,6 @@ try {
 
 
 print_r($pdo->query("Select * from students where 1")->fetchAll());
+print_r($pdo->query("Select * from students where 1")->fetchAll())
 ?>
+
