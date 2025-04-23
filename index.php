@@ -9,6 +9,9 @@ $conn = new mysqli($host,$name,$pass,$dbName);
 $students = $conn->query("SELECT * FROM `students` WHERE 1")->fetch_all();
 
 print_r($students);
+echo "<br>";
+echo "<br>";
+echo "<br>";
 
 $dsn = "mysql:host=localhost;dbname=college";
 $username = "root";
@@ -24,6 +27,7 @@ try {
 }
 
 
-print_r($pdo->query("Select * from students where 1")->fetchAll());
+$pdo->query("Select * from students where 1")->fetchAll();
+
 ?>
 
