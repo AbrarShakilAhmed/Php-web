@@ -59,6 +59,12 @@ echo "</table>";
             padding: 0;
             box-sizing: border-box;
         }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
     </style>
 </head>
 <body>
