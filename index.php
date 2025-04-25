@@ -90,7 +90,7 @@ if (isset($_POST["name"])) {
     } catch (PDOException $e) {
         echo "Error: " . $e->getMessage();
     }
-}
+};
 
 if (isset($_POST["delete"])) {
     try {
@@ -101,7 +101,7 @@ if (isset($_POST["delete"])) {
         exit;
     } catch (PDOException $e) {
         echo "Error: " . $e->getMessage();
-    };
+    }
 }
 
 ?>
