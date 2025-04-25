@@ -100,7 +100,7 @@ if (isset($_POST["delete"])) {
         header("Location: " . $_SERVER['PHP_SELF']);
         exit;
     } catch (PDOException $e) {
-        echo "Error: " . $e->getMessage();
+        echo "Error: is" . $e->getMessage();
     }
 }
 
