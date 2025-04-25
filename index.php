@@ -56,6 +56,7 @@ echo "</table>";
     <style>
         *{
             margin: 0;
+            padding: 0;
         }
     </style>
 </head>
