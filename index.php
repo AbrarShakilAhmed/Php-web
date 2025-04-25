@@ -53,7 +53,7 @@ echo "</table>";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://images.pexels.com/photos/827209/pexels-photo-827209.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" type="image/x-icon">
+    <link rel="icon" href="./Screenshot 2025-04-25 215333.png" type="image/x-icon">
     <title>Student Data</title>
     <style>
         *{
