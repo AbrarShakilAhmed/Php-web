@@ -71,6 +71,12 @@ echo "</table>";
                 margin: 10px;
             }
         }
+        table,tr,td,th{
+            border: 1px solid white;
+            border-collapse: collapse;
+            padding: 10px;
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
