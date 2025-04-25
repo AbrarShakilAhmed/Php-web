@@ -84,6 +84,13 @@ echo "</table>";
             border: none;
             cursor: pointer;
         }
+        input[type="text"]{
+            padding: 5px;
+            margin: 5px;
+            border: none;
+            background: white;
+            color: black;
+        }
     </style>
 </head>
 <body>
