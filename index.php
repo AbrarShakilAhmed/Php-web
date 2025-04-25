@@ -67,7 +67,7 @@ echo "</table>";
         <label for="address">Address</label>
         <input type="text" name="address" required placeholder="Enter your address">
         <br>
-        <button type="submit" namespace>Add Data</button>
+        <button type="submit" value="submit">Add Data</button>
     </form>
 
 </body>
