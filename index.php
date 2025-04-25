@@ -62,7 +62,7 @@ echo "</table>";
         <input type="text" name="name" required placeholder="Enter your name">
         <br>
         <label for="course">Course</label>
-        <input type="text" name="course" required>
+        <input type="text" name="course" required placeholder="Enter your course">
         <br>
         <label for="address">Address</label>
         <input type="text" name="address" required>
