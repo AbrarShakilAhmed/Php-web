@@ -91,12 +91,20 @@ echo "</table>";
             background: white;
             color: black;
         }
+        .form{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+            padding: 10px;
+            background-color: color(srgb red green blue);
+        }
     </style>
 </head>
 <body>
 
     <br><br><br><br><br>
-    <form action="" method="post">
+    <form  class="form" action="" method="post">
         <label for="name">Name</label>
         <input type="text" name="name" required placeholder="Enter your name">
         <br>
