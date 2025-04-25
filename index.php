@@ -13,6 +13,7 @@
 // echo "<br>";
 // echo "<br>";
 
+echo "<h1 align='center'>This is student database </h1> ";
 
 $dsn = "mysql:host=localhost;dbname=college";
 $username = "root";
@@ -28,7 +29,7 @@ try {
 
 $students = $pdo->query("SELECT * FROM students")->fetchAll();
 
-echo "<table border='1'>";
+echo "<table border='1' align='center'>";
 echo "<tr><th>Name</th><th>Id</th><th>Course</th><th>Address</th><th>Delete</th></tr>";
 
 foreach ($students as $p) {
@@ -71,7 +72,20 @@ echo "</table>";
                 margin: 10px;
             }
         }
-        table,tr,td,th{
+        table{
+            margin: 40px auto;
+            border-collapse: collapse;
+            width: 60%;
+        }
+        th{
+            background: steelblue;
+            color: white;
+        }
+        td{
+            background: gray;
+            color: white;
+        }
+        tr,td,th{
             border: 1px solid white;
             border-collapse: collapse;
             padding: 10px;
@@ -96,8 +110,20 @@ echo "</table>";
             flex-direction: column;
             width: 300px;
             margin: auto;
-            padding: 10px;
-            background-color: color(srgb red green blue);
+            padding: 50px;
+            background-color:steelblue;
+            border-radius: 10px;
+        }
+        h1{
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+        }
+        h2{
+            text-align: center;
+            color: white;
+            margin-bottom: 20px;
+            background-color: transparent;
         }
     </style>
 </head>
@@ -105,14 +131,15 @@ echo "</table>";
 
     <br><br><br><br><br>
     <form  class="form" action="" method="post">
+        <h2>Add Data</h2>
         <label for="name">Name</label>
-        <input type="text" name="name" required placeholder="Enter your name">
+        <input type="text" name="name" required placeholder="Enter your name" autocomplete="off">
         <br>
         <label for="course">Course</label>
-        <input type="text" name="course" required placeholder="Enter your course">
+        <input type="text" name="course" required placeholder="Enter your course" autocomplete="off">
         <br>
         <label for="address">Address</label>
-        <input type="text" name="address" required placeholder="Enter your address">
+        <input type="text" name="address" required placeholder="Enter your address" autocomplete="off">
         <br>
         <button type="submit" value="submit">Add Data</button>
     </form>
