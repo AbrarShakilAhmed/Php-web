@@ -97,6 +97,8 @@ echo "</table>";
             padding: 5px;
             border: none;
             cursor: pointer;
+            border-radius: 30px;
+            margin: 20px;
         }
         input[type="text"]{
             padding: 5px;
