@@ -59,7 +59,7 @@ echo "</table>";
     <br><br><br><br><br>
     <form action="" method="post">
         <label for="name">Name</label>
-        <input type="text" name="name" required>
+        <input type="text" name="name" required placeholder="Enter your name">
         <br>
         <label for="course">Course</label>
         <input type="text" name="course" required>
