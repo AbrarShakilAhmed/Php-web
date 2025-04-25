@@ -77,6 +77,13 @@ echo "</table>";
             padding: 10px;
             margin: 10px;
         }
+        button{
+            background: white;
+            color: black;
+            padding: 5px;
+            border: none;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
