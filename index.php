@@ -64,6 +64,10 @@ echo "</table>";
             flex-direction: column;
             width: 300px;
             margin: auto;
+            &{
+                padding: 10px;
+                margin: 10px;
+            }
         }
     </style>
 </head>
